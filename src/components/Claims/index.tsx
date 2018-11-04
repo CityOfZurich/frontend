@@ -53,7 +53,7 @@ class Claims extends Component<ClaimProps,ClaimState> {
                   <span>Select your claim:</span>
                   <select onChange={this.handleChangeSel}>
                     {this.props.claimsOptions.map((e,i) => <option key={i} value={i+1}>{e}</option>)}
-                    <option key={'iLol'} value={3}>pizza_mafia_mandolino</option>
+                    <option key={'iLol'} value={3}>not_avail</option>
                   </select>
                 </label>
                 </div>
